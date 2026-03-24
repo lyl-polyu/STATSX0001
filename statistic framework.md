@@ -1,0 +1,24 @@
+---
+title: "statistic framework"
+author: "lyl"
+date: "2026-03-20"
+lang: "Bradley Hand"
+---
+
+# 1. basic notation / 基本符号
+
+- Outcome measurement Y (also called dependent variable,response,traget)
+- Vector of p predictor measurement X (also called inputs, regressors, covariates, features, independent variables)
+- Two types problems: 
+- 1. regression problem 回归问题 ：Y is quantitive.
+- 2. classification problem 分类问题 ：Y take values in a finite ,unordered set.
+- Observation/examples/instance/training data pairs (x_1,y_1),(x_2,y_2),...,(x_n,y_n) Here x_n is a vector of measurement.
+
+---
+
+# 2. Unsupervied learning / 无监督学习
+
+- 监督学习(Supervised learning)的想法类似于幼儿园中，要教孩子们认识交通工具，会有一位老师给孩子们自行车的图片，然后将自行车如何使用，等等。
+- 无监督学习的想法则是，孩子进入幼儿园之后，地上全是交通工具的图片，孩子们不认识，甚至没有交通工具这个概念(data is unlabeled, there is no Y), 孩子们在没有人引导的情况下，自己根据这些图片的相似特征，进行一些活动（如果是进行分类，那么这个过程就叫做clustering/聚类）。
+
+---
