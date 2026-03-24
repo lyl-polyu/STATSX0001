@@ -2,14 +2,14 @@
 title: "regression modelling"
 author: "lyl"
 date: "2026-03-24"
-lang: "Bradley Hand"
+lang: "en"
+mainfont: "Bradley Hand"
+CJKmainfont: "PingFang SC"
 ---
-
+---
 # 1. What is regression modelling ?
 
-![figure 1](images/image1.png)
-
-figure 1 shown that Sales(Y) have a linear regression line with TV(X_1) and Radio(X_2) and Newspaper(X_3) fit to each.
+Sales(Y) have a linear regression line with TV(X_1) and Radio(X_2) and Newspaper(X_3) fit to each.
 
 We want to predict Sales using these 3 predictors.
 
@@ -32,7 +32,5 @@ f(x) = E(Y|X=x) is called the regression function.
 f(x) = f(x_1, x_2, x_3) = E(Y|X_1=x_1, X_2=x_2, X_3=x_3)
 
 The ideal or optimal predictor of Y with regard to mean-squared prediction error(MSE,均方误差): f(x) = E(Y|X=x) is the function that minimizes E[(Y-g(X))^2|X=x] overall function g at all points X=x.
-
-
 
 ---

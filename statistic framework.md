@@ -2,7 +2,9 @@
 title: "statistic framework"
 author: "lyl"
 date: "2026-03-20"
-lang: "Bradley Hand"
+lang: "en"
+mainfont: "Bradley Hand"
+CJKmainfont: "PingFang SC"
 ---
 
 # 1. basic notation / 基本符号
@@ -12,7 +14,7 @@ lang: "Bradley Hand"
 - Two types problems: 
 - 1. regression problem 回归问题 ：Y is quantitive.
 - 2. classification problem 分类问题 ：Y take values in a finite ,unordered set.
-- Observation/examples/instance/training data pairs (x_1,y_1),(x_2,y_2),...,(x_n,y_n) Here x_n is a vector of measurement.
+- Observation/examples/instance/training data pairs $(x_1,y_1),(x_2,y_2),...,(x_n,y_n)$ Here $x_n$ is a vector of measurement.
 
 ---
 
